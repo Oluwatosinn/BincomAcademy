@@ -1,0 +1,65 @@
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.bigImg{
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: saturation;
+  background-color: #00000096;
+}
+.navbar{
+        width: 100%;
+        border-color: transparent;
+        font-family: cursive;
+        text-decoration: none;
+      }
+      .navbar-logo{
+      	font-size: 30cm;
+        float: right;
+        color: white;
+        min-height: 50px;
+        margin-top: 10px;
+        padding: 0px 0px 0px 950px;
+        text-decoration: none;
+        font-family: cursive;
+      }
+      .so{
+      	color: #ffca00f5;
+      }
+      .navbar-inverse .navbar-nav ,active a, .navbar-inverse .navbar-nav ,active a:focus, .navbar-inverse .navbar-nav ,active a:hover {
+        color: transparent;
+        background-color: transparent;
+      }
+      .navbar-begin .navbar-nav li a{
+        color: white;
+      }
+ .word{
+ 	color: white;
+ 	font-size: 1.0cm;
+ 	padding-left: 40px;
+ 	margin: 18px;
+ 	font-family: cursive;
+ }
+ .different{
+ 	color: #ffca00f5;
+ 	font-size: 1.6cm;
+ 	margin: 18px;
+ 	padding-left: 30px;
+ 	font-family: cursive;
+ }
+.container{
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
